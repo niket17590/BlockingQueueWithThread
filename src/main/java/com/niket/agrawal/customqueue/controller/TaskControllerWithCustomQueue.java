@@ -13,7 +13,7 @@ import com.niket.agrawal.customqueue.service.TaskExecutionService;
 
 @RestController
 @RequestMapping(value = "api/v1/customQueue")
-public class TaskController {
+public class TaskControllerWithCustomQueue {
 
 	@Autowired
 	private TaskExecutionService taskExecutionService;
