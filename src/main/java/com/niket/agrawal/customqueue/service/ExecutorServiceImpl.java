@@ -5,9 +5,11 @@ import java.util.concurrent.Executors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import com.niket.agrawal.customqueue.dto.TaskDetail;
 
+@Service
 public class ExecutorServiceImpl {
 
 	static final Logger logger = LoggerFactory.getLogger(ExecutorServiceImpl.class);
