@@ -16,8 +16,9 @@ public class TaskControllerWithExecutorService {
 	private ExecutorServiceImpl executorServiceImpl;
 
 	@PostMapping(value = "submitTask")
-	public void submitTask(TaskDetail taskDetail) {
+	public String submitTask(TaskDetail taskDetail) {
 		executorServiceImpl.submitTask(taskDetail);
+		return "You request is submitted for processing";
 	}
 
 }

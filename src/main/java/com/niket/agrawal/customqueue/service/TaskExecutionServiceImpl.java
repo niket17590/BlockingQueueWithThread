@@ -44,6 +44,7 @@ public class TaskExecutionServiceImpl implements TaskExecutionService {
 							logger.info("Task performed successfully");
 						else
 							logger.error("Task compelted with errors");
+						// Now we can either email or publish push notification
 					}
 				} catch (InterruptedException e) {
 					logger.error("There was an error while processing ", e);

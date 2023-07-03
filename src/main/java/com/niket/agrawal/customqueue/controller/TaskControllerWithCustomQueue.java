@@ -19,8 +19,9 @@ public class TaskControllerWithCustomQueue {
 	private TaskExecutionService taskExecutionService;
 
 	@PostMapping(value = "submitTask")
-	public void submitTask(TaskDetail taskDetail) {
+	public String submitTask(TaskDetail taskDetail) {
 		taskExecutionService.submitTaskInQueue(taskDetail);
+		return "You request is submitted for processing";
 	}
 
 	@GetMapping("getQueueSize")
