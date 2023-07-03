@@ -1,13 +1,13 @@
-package com.niket.agrawal.customqueue;
+package com.niket.agrawal.blockingqueue.with.thread;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomizedQueueApplication {
+public class BlockingQueueWithThreadApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustomizedQueueApplication.class, args);
+		SpringApplication.run(BlockingQueueWithThreadApplication.class, args);
 	}
 
 }

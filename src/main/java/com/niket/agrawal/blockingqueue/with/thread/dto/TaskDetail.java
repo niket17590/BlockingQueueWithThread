@@ -1,4 +1,4 @@
-package com.niket.agrawal.customqueue.dto;
+package com.niket.agrawal.blockingqueue.with.thread.dto;
 
 import lombok.Data;
 

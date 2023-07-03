@@ -1,8 +1,8 @@
-package com.niket.agrawal.customqueue.service;
+package com.niket.agrawal.blockingqueue.with.thread.service;
 
 import java.util.List;
 
-import com.niket.agrawal.customqueue.dto.TaskDetail;
+import com.niket.agrawal.blockingqueue.with.thread.dto.TaskDetail;
 
 public interface TaskExecutionService {
 

@@ -1,4 +1,4 @@
-package com.niket.agrawal.customqueue.service;
+package com.niket.agrawal.blockingqueue.with.thread.service;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.niket.agrawal.customqueue.dto.TaskDetail;
+import com.niket.agrawal.blockingqueue.with.thread.dto.TaskDetail;
 
 @Service
 public class ExecutorServiceImpl {

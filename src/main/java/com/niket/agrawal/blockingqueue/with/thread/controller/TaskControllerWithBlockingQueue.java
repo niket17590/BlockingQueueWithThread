@@ -1,4 +1,4 @@
-package com.niket.agrawal.customqueue.controller;
+package com.niket.agrawal.blockingqueue.with.thread.controller;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.niket.agrawal.customqueue.dto.TaskDetail;
-import com.niket.agrawal.customqueue.service.TaskExecutionService;
+import com.niket.agrawal.blockingqueue.with.thread.dto.TaskDetail;
+import com.niket.agrawal.blockingqueue.with.thread.service.TaskExecutionService;
 
 @RestController
 @RequestMapping(value = "api/v1/customQueue")
-public class TaskControllerWithCustomQueue {
+public class TaskControllerWithBlockingQueue {
 
 	@Autowired
 	private TaskExecutionService taskExecutionService;

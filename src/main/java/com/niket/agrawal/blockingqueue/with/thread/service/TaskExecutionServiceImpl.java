@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.niket.agrawal.customqueue.service;
+package com.niket.agrawal.blockingqueue.with.thread.service;
 
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.niket.agrawal.customqueue.dto.TaskDetail;
+import com.niket.agrawal.blockingqueue.with.thread.dto.TaskDetail;
 
 /**
  * @author Niket Agrawal
